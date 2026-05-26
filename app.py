@@ -9,7 +9,7 @@ from telebot import types
 
 TOKEN = os.environ.get("TOKEN")
 MAIN_ADMIN = int(os.environ.get("MAIN_ADMIN", 8763658506))
-SUPPORT = "@ggKassaHelpbot"
+SUPPORT = "@GromsupBot"
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
